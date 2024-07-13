@@ -12,18 +12,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9668bb23a72312044b5f20163a4d98b1, type: 3}
   m_Name: Default Texture
   m_EditorClassIdentifier: 
-  autoUpdate: 0
-  baseColors:
-  - {r: 0, g: 0.007524571, b: 0.5849056, a: 0}
-  - {r: 0, g: 0.10471773, b: 1, a: 0}
-  - {r: 0.8770538, g: 0.8962264, b: 0.49377, a: 0}
-  - {r: 0.1830188, g: 1, b: 0.53659, a: 0}
-  - {r: 0.26415092, g: 0.19068825, b: 0.18291205, a: 0}
-  - {r: 1, g: 0.78679246, b: 0.9293235, a: 0}
-  baseStartHeights:
-  - 0
-  - 0.083
-  - 0.154
-  - 0.236
-  - 0.447
-  - 0.802
+  autoUpdate: 1
+  layers:
+  - texture: {fileID: 2800000, guid: 60f0dfae7cbda3f40a9fe29632738abe, type: 3}
+    tint: {r: 0.18356556, g: 0.035294104, b: 0.8509804, a: 0}
+    tintStrength: 0.309
+    startHeight: 0
+    blendStrength: 0
+    textureScale: 10
+  - texture: {fileID: 2800000, guid: 60f0dfae7cbda3f40a9fe29632738abe, type: 3}
+    tint: {r: 0.12549019, g: 0.15200026, b: 1, a: 0}
+    tintStrength: 0.332
+    startHeight: 0.098
+    blendStrength: 0.095
+    textureScale: 10
+  - texture: {fileID: 2800000, guid: 248edb57f02df624a9cdbeb883e57b07, type: 3}
+    tint: {r: 1, g: 0.9519581, b: 0.5235849, a: 0}
+    tintStrength: 0.379
+    startHeight: 0.175
+    blendStrength: 0.037
+    textureScale: 10
+  - texture: {fileID: 2800000, guid: 3d2f2d0049f56c04b8c9fc29908f9b6c, type: 3}
+    tint: {r: 0.3820755, g: 1, b: 0.4783868, a: 0}
+    tintStrength: 0.394
+    startHeight: 0.31
+    blendStrength: 0.094
+    textureScale: 10
+  - texture: {fileID: 2800000, guid: 3d2f2d0049f56c04b8c9fc29908f9b6c, type: 3}
+    tint: {r: 0.12224099, g: 0.6320754, b: 0.2516548, a: 0}
+    tintStrength: 0.354
+    startHeight: 0.387
+    blendStrength: 0.463
+    textureScale: 10
+  - texture: {fileID: 2800000, guid: b2ba788378879cd4f92f52b8a401489e, type: 3}
+    tint: {r: 0.084905684, g: 0.050157458, b: 0.047659323, a: 0}
+    tintStrength: 0.489
+    startHeight: 0.467
+    blendStrength: 0.116
+    textureScale: 10
+  - texture: {fileID: 2800000, guid: 5385a41c21b59544382706f30cca2bae, type: 3}
+    tint: {r: 0.8915094, g: 0.98972195, b: 1, a: 0}
+    tintStrength: 0.138
+    startHeight: 0.718
+    blendStrength: 0.123
+    textureScale: 10
